@@ -1,6 +1,6 @@
 all: index.html index.bundle.js
 
-index.html: src/index.js
+index.html: src/index.pug
 	npm run build
 
 index.bundle.js: src/index.js src/index.css

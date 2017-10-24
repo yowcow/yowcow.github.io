@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "node app.js",
+    "build": "node build.js",
+    "server": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack"
   },
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/yowcow/yowcow.github.io#readme",
   "dependencies": {
     "css-loader": "^0.28.7",
+    "express": "^4.16.2",
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
     "pug": "^2.0.0-rc.4",
