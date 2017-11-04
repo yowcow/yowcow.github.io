@@ -8,7 +8,7 @@ index.html: src/index.pug
 	node build.js -i $< -o $@
 
 dist/index.bundle.js: src/index.js src/index.css
-	node ./node_modules/.bind/webpack --config webpack.config.js
+	node ./node_modules/.bin/webpack --config webpack.config.js
 
 run:
 	node server.js
